@@ -1,0 +1,11 @@
+:root{
+  --c-white:hsl(0, 0%, 100%);
+  --c-gray:hsla(0, 0%, 0%, 25%);
+  --c-slate-300:hsl(212, 45%, 89%);
+  --c-slate-500:hsl(216, 15%, 48%);
+  --c-slate-900:hsl(218, 44%, 22%);
+
+  --color-text-h1: var(--c-slate-900);
+  --color-text-p: var(--c-slate-500);
+  --color-shadow: var(--c-gray);
+}

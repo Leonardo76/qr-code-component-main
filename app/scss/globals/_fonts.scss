@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+  --font:'Outfit';
+
+  --fs-10: calc(10 / 16 * 1rem);
+  --fs-15: calc(15 / 16 * 1rem);
+  --fs-22: calc(22 / 16 * 1rem);
+
+  --font-size-h1:var(--fs-22);
+  --font-size-p:var(--fs-15);
+  --font-size-attribution:var(--fs-10);
+}

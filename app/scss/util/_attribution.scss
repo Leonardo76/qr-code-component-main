@@ -1,0 +1,11 @@
+.attribution {
+  font-size: var(--font-size-attribution);
+  position: fixed;
+  bottom: 0;
+  margin-inline-start: 10px;
+
+  > a{
+    color: var(--color-text-h1);
+    font-weight: 700;
+  }
+}

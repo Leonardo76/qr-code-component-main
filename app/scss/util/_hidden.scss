@@ -1,0 +1,13 @@
+// Useful class to hide an element.
+// Used for h1 to preserve the normal flow of the document:
+//- we cannot have an image before an h1 so:
+//  - we have to use h2 for the title
+//  - we must insert a hidden h1 before image
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

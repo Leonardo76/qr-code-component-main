@@ -1,0 +1,38 @@
+.qrcode {
+  text-align: center;
+  //center the card in viewport
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &__wrapper {
+    //card characteristics
+    background-color: var(--c-white);
+    width: 320px;
+    height: 499px;
+    border-radius: 24px;
+    padding: 16px 16px 40px 16px;
+    box-shadow: 0 4px 4px var(--color-shadow);
+
+    //position the image and texts
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  &__image {
+    //image characteristics
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+  }
+
+  &__content {
+    //position the title and the text
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
